@@ -1,0 +1,28 @@
+C:\Users\banana7\source\repos\graphs\graphs\bin\Debug\graphs.exe.config
+C:\Users\banana7\source\repos\graphs\graphs\bin\Debug\graphs.exe
+C:\Users\banana7\source\repos\graphs\graphs\bin\Debug\graphs.pdb
+C:\Users\banana7\source\repos\graphs\graphs\obj\Debug\graphs.csprojAssemblyReference.cache
+C:\Users\banana7\source\repos\graphs\graphs\obj\Debug\graphs.Form1.resources
+C:\Users\banana7\source\repos\graphs\graphs\obj\Debug\graphs.Properties.Resources.resources
+C:\Users\banana7\source\repos\graphs\graphs\obj\Debug\graphs.csproj.GenerateResource.cache
+C:\Users\banana7\source\repos\graphs\graphs\obj\Debug\graphs.csproj.CoreCompileInputs.cache
+C:\Users\banana7\source\repos\graphs\graphs\obj\Debug\graphs.exe
+C:\Users\banana7\source\repos\graphs\graphs\obj\Debug\graphs.pdb
+C:\Users\Michael\Desktop\graphs\graphs\bin\Debug\graphs.exe.config
+C:\Users\Michael\Desktop\graphs\graphs\bin\Debug\graphs.exe
+C:\Users\Michael\Desktop\graphs\graphs\bin\Debug\graphs.pdb
+C:\Users\Michael\Desktop\graphs\graphs\obj\Debug\graphs.csprojAssemblyReference.cache
+C:\Users\Michael\Desktop\graphs\graphs\obj\Debug\graphs.Form1.resources
+C:\Users\Michael\Desktop\graphs\graphs\obj\Debug\graphs.Properties.Resources.resources
+C:\Users\Michael\Desktop\graphs\graphs\obj\Debug\graphs.csproj.GenerateResource.cache
+C:\Users\Michael\Desktop\graphs\graphs\obj\Debug\graphs.exe
+C:\Users\Michael\Desktop\graphs\graphs\obj\Debug\graphs.pdb
+C:\Users\Michael\Desktop\graphs — копия\graphs\bin\Debug\graphs.exe.config
+C:\Users\Michael\Desktop\graphs — копия\graphs\bin\Debug\graphs.exe
+C:\Users\Michael\Desktop\graphs — копия\graphs\bin\Debug\graphs.pdb
+C:\Users\Michael\Desktop\graphs — копия\graphs\obj\Debug\graphs.csprojAssemblyReference.cache
+C:\Users\Michael\Desktop\graphs — копия\graphs\obj\Debug\graphs.Form1.resources
+C:\Users\Michael\Desktop\graphs — копия\graphs\obj\Debug\graphs.Properties.Resources.resources
+C:\Users\Michael\Desktop\graphs — копия\graphs\obj\Debug\graphs.csproj.GenerateResource.cache
+C:\Users\Michael\Desktop\graphs — копия\graphs\obj\Debug\graphs.exe
+C:\Users\Michael\Desktop\graphs — копия\graphs\obj\Debug\graphs.pdb
