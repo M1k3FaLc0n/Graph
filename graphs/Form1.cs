@@ -121,13 +121,13 @@ namespace graphs
 
         private void btn_pressed(Button btn)
         {
-            if(start != null)
+            if(start == null)
             {
                 start = btn;
                 start.BackColor = Color.GreenYellow;
                 return;
             }
-            if(end != null)
+            if(end == null)
             {
                 end = btn;
                 end.BackColor = Color.PaleVioletRed;
