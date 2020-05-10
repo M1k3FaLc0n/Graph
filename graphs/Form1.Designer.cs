@@ -41,6 +41,7 @@
             this.vertex11 = new System.Windows.Forms.Button();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.btnSearch = new System.Windows.Forms.Button();
+            this.btnAgain = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // vertex1
@@ -174,6 +175,19 @@
             this.btnSearch.TabIndex = 12;
             this.btnSearch.Text = "Найти путь!";
             this.btnSearch.UseVisualStyleBackColor = false;
+            this.btnSearch.Click += new System.EventHandler(this.btnSearch_Click);
+            // 
+            // btnAgain
+            // 
+            this.btnAgain.BackColor = System.Drawing.Color.Honeydew;
+            this.btnAgain.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.btnAgain.Location = new System.Drawing.Point(615, 195);
+            this.btnAgain.Name = "btnAgain";
+            this.btnAgain.Size = new System.Drawing.Size(212, 33);
+            this.btnAgain.TabIndex = 13;
+            this.btnAgain.Text = "Начать заново!";
+            this.btnAgain.UseVisualStyleBackColor = false;
+            this.btnAgain.Click += new System.EventHandler(this.btnAgain_Click);
             // 
             // Form1
             // 
@@ -181,6 +195,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.MediumTurquoise;
             this.ClientSize = new System.Drawing.Size(840, 450);
+            this.Controls.Add(this.btnAgain);
             this.Controls.Add(this.btnSearch);
             this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.vertex11);
@@ -215,6 +230,7 @@
         private System.Windows.Forms.Button vertex11;
         private System.Windows.Forms.RichTextBox richTextBox1;
         private System.Windows.Forms.Button btnSearch;
+        private System.Windows.Forms.Button btnAgain;
     }
 }
 

@@ -24,7 +24,41 @@ namespace graphs
             end = null;
             btnSearch.Enabled = false;
         }
+        private Vertex get_vertex(Button btn)
+        {
+            for(int i = 0; i < graph.Vertices.Count; i++)
+            {
+                if (graph.Vertices[i].Btn.Equals(btn))
+                {
+                    return graph.Vertices[i];
+                }
+            }
+            return null;
+        }
 
+        private void show_short_path(List<Vertex> short_path)
+        {
+            for(int i = 1; i < short_path.Count - 1; i++)
+            {
+                short_path[i].Btn.BackColor = Color.Coral;
+            }
+        }
+
+        private void set_default_color()
+        {
+            for (int i = 0; i < graph.Vertices.Count; i++)
+            {
+                graph.Vertices[i].Btn.BackColor = Color.DarkOliveGreen;
+            }
+        }
+
+        private void btn_again_actions()
+        {
+            start = null;
+            end = null;
+            set_default_color();
+            
+        }
         private List<Button> get_list_buttons()
         {
             List<Button> buttons = new List<Button>();
@@ -191,6 +225,22 @@ namespace graphs
         private void vertex11_Click(object sender, EventArgs e)
         {
             btn_pressed(vertex11);
+        }
+
+        private void btnSearch_Click(object sender, EventArgs e)
+        {
+            Vertex start_vertex = get_vertex(start);
+            Vertex end_vertex = get_vertex(end);
+            List<Vertex> short_path = Dijkstra.dijkstra_algo(graph, start_vertex, end_vertex);
+
+            show_short_path(short_path);
+            btnSearch.Enabled = false;
+            btnAgain.Enabled = true;
+        }
+
+        private void btnAgain_Click(object sender, EventArgs e)
+        {
+            btn_again_actions();
         }
     }
 }
